@@ -14,7 +14,7 @@ import java.util.Set;
 public class StringUniqueChars {
 
 	/**
-	 * This method implementation only uses String APi , No other Data Structures
+	 * This method implementation only uses String APi , No other Data Structures, Case Sensitive 
 	 * CASE sensitive Retrun true if all unique
 	 * 
 	 * @param input
@@ -40,6 +40,13 @@ public class StringUniqueChars {
 		return !flag;
 
 	}
+	/**
+	 * This method implementation only uses String APi , No other Data Structures NoT Case Sensitive 
+	 * CASE sensitive Retrun true if all unique
+	 * 
+	 * @param input
+	 * @return
+	 */
 
 	boolean StringTestncs(String input) {
 		boolean flag = false;
@@ -64,7 +71,7 @@ public class StringUniqueChars {
 	}
 
 	/**
-	 * method implementation uses Set interface to find the if String has All unique
+	 * method implementation uses Set interface to find the if String has All unique , Case Sensitive 
 	 * CASE sensitive Characters Retrun true If All unique
 	 * 
 	 * @param input
@@ -82,6 +89,14 @@ public class StringUniqueChars {
 
 		return flag;
 	}
+	
+	/**
+	 * method implementation uses Set interface to find the if String has All unique ,NOT  Case Sensitive 
+	 * CASE sensitive Characters Retrun true If All unique
+	 * 
+	 * @param input
+	 * @return
+	 */
 
 	boolean StringTestSetncs(String input) {
 		boolean flag = true;
