@@ -26,7 +26,7 @@ public class NumberOfPairs {
 				mh.put(i, 1);
 			} else {
 				j = mh.get(i) + 1;
-				// System.out.println("enetered ");
+
 				mh.replace(i, j);
 			}
 
@@ -34,10 +34,8 @@ public class NumberOfPairs {
 		n = 0;
 		for (Integer i : mh.values()) {
 
-			// System.out.println("i="+i);
 			n += i / 2;
-			// System.out.println("/////////////");
-			// System.out.println("n="+n);
+
 		}
 		return n;
 	}
