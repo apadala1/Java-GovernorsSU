@@ -26,9 +26,9 @@ public class Solution {
         }
         scan.close();
         
-        // Print result:
         System.out.println(posInputs / numInputs);
         System.out.println(negInputs / numInputs);
         System.out.println(zeroInputs / numInputs);
     }
 }
+        // Print result:

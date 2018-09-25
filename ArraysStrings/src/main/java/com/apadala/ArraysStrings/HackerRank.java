@@ -86,6 +86,6 @@ public class HackerRank {
 		System.out.println(sum[0]);
 		System.out.println(sum[sum.length-1]);
 	}
-	
+
 	
 }
