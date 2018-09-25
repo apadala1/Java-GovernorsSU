@@ -40,9 +40,9 @@ public class App {
 		//alist.add("aaaabbbbcccc");
 		//////////////////////////////////////////////////
 		
-		RemoveDuplicateChar.rmvDuplicateLow("0123456".toCharArray());
+	//	RemoveDuplicateChar.rmvDuplicateLow("0123456".toCharArray());
 		
-		
+		System.out.println(84%28);
 		
 		
 		
