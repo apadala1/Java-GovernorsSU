@@ -42,7 +42,6 @@ public class App {
 		
 	//	RemoveDuplicateChar.rmvDuplicateLow("0123456".toCharArray());
 		
-		System.out.println(84%28);
 		
 		
 		
@@ -51,7 +50,7 @@ public class App {
 		// time elapsed
 		long output = lEndTime - lStartTime;
 
-		System.out.println("Elapsed time in milliseconds: " + output / 1000000);
+		System.out.println("\nElapsed time in milliseconds: " + output / 1000000);
 
 	}
 }
