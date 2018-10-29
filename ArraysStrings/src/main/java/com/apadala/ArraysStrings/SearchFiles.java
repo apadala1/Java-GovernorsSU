@@ -17,7 +17,7 @@ public class SearchFiles {
 		String lineNumber = "";
 
 		BufferedReader br;
-		String inputSearch = "deliverPricesWarning";
+		String inputSearch = "systhrow";
 		String line = "";
 
 		try {
@@ -25,7 +25,7 @@ public class SearchFiles {
 			try {
 				while ((line = br.readLine()) != null) {
 					countLine++;
-					// System.out.println(line);
+					//System.out.println(line);
 					String[] words = line.split(" ");
 
 					for (String word : words) {
@@ -39,7 +39,7 @@ public class SearchFiles {
 						countBuffer = 0;
 						lineNumber += countLine + ",";
 					}
-
+					
 				}
 				br.close();
 			} catch (IOException e) {
@@ -50,6 +50,7 @@ public class SearchFiles {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		//System.out.println(filePath);
 		if (count > 0) {
 			System.out.println("Times found at--" + count);
 			System.out.println("Times found at--" + filePath);

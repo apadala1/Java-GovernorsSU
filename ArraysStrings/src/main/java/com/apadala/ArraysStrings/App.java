@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class App {
 	public static void main(String[] args) {
 		long lStartTime = System.nanoTime();
-		String input = "abcdefghijklmnopqrstuvwxyza";
+		String input = "JVMDUMP";
 
 		// System.out.println(new StringUniqueChars().StringTest(input));
 		// System.out.println(new StringUniqueChars().StringTestncs(input));
@@ -20,31 +20,30 @@ public class App {
 		// System.out.println(new StringUniqueChars().StringTestSetncs(input));
 
 		/* test case for files and search */
+		/**/
+		File currentDir = new File("E:\\terminal dump\\");
+
+		FIlePathUtil.displayDirectoryContents(currentDir);
+		int count = 0;
+		for (String str : FIlePathUtil.al) {
+			SearchFiles.FineEach(str);
+			count++;
+		}
+
 		/*
-		 * File currentDir = new File("E:\\Myworkspace\\kroger");
-		 * 
-		 * FIlePathUtil.displayDirectoryContents(currentDir); int count =0; for (String
-		 * str : FIlePathUtil.al) { SearchFiles.FineEach(str); count++;
-		 * 
-		 * }
-		 */
-		/*
-		 * test case for duplicate string 
+		 * test case for duplicate string
 		 * 
 		 */
 		// RemoveDuplicateChar rmd=new RemoveDuplicateChar();
-		//ArrayList<String> alist= new ArrayList();
-		//alist.add("akhileshwarpadala");
-		//alist.add("aaaaaaaaaaaaaaaaa");
-		//alist.add("");
-		//alist.add("aaaabbbbcccc");
+		// ArrayList<String> alist= new ArrayList();
+		// alist.add("akhileshwarpadala");
+		// alist.add("aaaaaaaaaaaaaaaaa");
+		// alist.add("");
+		// alist.add("aaaabbbbcccc");
 		//////////////////////////////////////////////////
-		
-	//	RemoveDuplicateChar.rmvDuplicateLow("0123456".toCharArray());
-		
-		
-		
-		
+
+		// RemoveDuplicateChar.rmvDuplicateLow("0123456".toCharArray());
+
 		long lEndTime = System.nanoTime();
 
 		// time elapsed
